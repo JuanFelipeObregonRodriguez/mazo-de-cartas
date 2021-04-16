@@ -26,11 +26,34 @@ xhttp.onreadystatechange = function(){
 }
 
     var json =
-            [{"numero": "1","carta": "As", "datos": "0"},
-            {"numero": "2","carta": "2 de diamantes", "datos": "0"},
-            {"numero": "3","carta": "3 de corazones", "datos": "0"},
-            {"numero": "4","carta": "4 de corazones", "datos": "0"},
-            {"numero": "5","carta": "5 de corazones", "datos": "0"}]
+    [{
+        "numero": "1",
+        "carta": "As",
+         "datos": "0"},
+    
+        {
+        "numero": "2",
+        "carta": "2 de diamantes",
+         "datos": "0"
+        },
+    
+        {
+        "numero": "3",
+        "carta": "3 de corazones",
+         "datos": "0"
+        },
+    
+        {
+        "numero": "4",
+        "carta": "4 de corazones",
+        "datos": "0"
+         },
+    
+        {
+        "numero": "5",
+        "carta": "5 de corazones", 
+        "datos": "0"
+        }]
             
     localStorage.setItem('datos',JSON.stringify(json));
 
