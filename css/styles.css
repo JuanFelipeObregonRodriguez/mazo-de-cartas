@@ -1,0 +1,61 @@
+.header > img{
+    height: 150px;
+    padding: 20px;
+    width: 500px;
+    background-position: top center;
+}
+
+.contenedor .cartas > button > img{
+    width: 150px;
+    height: 200px;
+}
+
+.tabla{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid darkcyan;
+}
+
+.derecha .regcartas > form{
+    width: 50%;
+    border: 1px solid darkcyan;
+    padding: 20px;
+}
+
+.derecha .regcartas > form > .campotext{
+    width: 100%;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contenedor .cartas{
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    grid-gap: 40px;
+}
+
+@media screen and (max-width: 1290px){
+    .contenedor{
+            grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contenedor .cartas{
+        display: grid;
+        grid-template-columns: 320px 320px;
+        grid-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 715px){
+    .contenedor .cartas{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-gap: 40px;
+    }
+}
