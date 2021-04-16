@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/gridIndex.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Mazo de Cartas</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo.jpg" alt="showdown">
+    </div>
+
+    <div class="contenedor">
+        <div class="cartas">
+            <button><img src="img/1.png" alt=""></button>
+            <button><img src="img/2.png" alt=""></button>
+            <button><img src="img/3.png" alt=""></button>
+            <button><img src="img/4.png" alt=""></button>
+            <button><img src="img/5.png" alt=""></button>
+            <button><img src="img/6.png" alt=""></button>
+            <button><img src="img/7.png" alt=""></button>
+            <button><img src="img/8.png" alt=""></button>
+            <button><img src="img/9.png" alt=""></button>
+            <button><img src="img/10.png" alt=""></button>
+            <button><img src="img/11.png" alt=""></button>
+            <button><img src="img/12.png" alt=""></button>
+            <button><img src="img/13.png" alt=""></button>
+        </div>
+        <div class="derecha">
+            <div class="tablita">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Carta</th>
+                            <th>Cant</th>
+                        </tr>
+                    </thead>
+                    <tbody id="res">
+
+                    </tbody>   
+                  </table>
+            </div>
+            <br><br>
+            <div class="regcartas">
+                <h4>Registro Cartas</h4>
+                <form action="" id="formulario" method="get">
+                    <label for="">Numero:</label><br><br>
+                    <input type="text" name="numero" class="campotext" id="numero"><br><br>
+                    <label for="">Carta:</label><br><br>
+                    <input type="text" name="carta" class="campotext" id="carta"><br><br><br>
+                    <button type="button" class="btn" >Guardar</button>
+                </form>
+            </div><br><br>
+            <button type="submit" class="btn" id="boton" value="enviar">refrescar</button>
+        </div>
+    </div>
+</body>
+</html>
